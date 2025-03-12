@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealEstate Website</title>
+    <link rel="stylesheet" href="styles2.css">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FontAwesome Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+<body>
+
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-success fs-2" href="#" style="color: #00A882;"><img src="images/icon-deal.png" alt="logo" class="logo-img"> <span style="color: #00A882;">Makaan</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="propertyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Property
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="propertyDropdown">
+                                <li><a class="dropdown-item" href="#">Property List</a></li>
+                                <li><a class="dropdown-item" href="#">Property Type</a></li>
+                                <li><a class="dropdown-item" href="#">Property Agent</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                                <li><a class="dropdown-item" href="#">404 Error</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="btn btn-success ms-2" href="#">Add Property</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fulid home-page1 mb-auto">
+        <section class="container-fulid home-section">
+            <div class="home-text">
+                <h1 class="mb-4 fw-bold">Find A <span style="color: #00A882;">Perfect Home</span> To Live With Your Family</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos dolorem alias ea tempore inventore expedita sequi quam dolore culpa?</p>
+                <button class="btn btn-success pt-3 pb-3 ps-5 pe-5">Get Started</button>
+            </div>
+            <div class="home-images">
+                <img src="images/carousel-1.jpg" alt="House 1">
+                <img src="images/carousel-2.jpg" alt="House 2">
+            </div>
+        </section>
+    </div>
+
+    <!-- Search Bar -->
+<div class="search-bar text-center">
+    <div class="container ">
+        <div class="row g-2">
+            <div class="col-md-3">
+                <input type="text" placeholder="Search Keyword">
+            </div>
+            <div class="col-md-3">
+                <select>
+                    <option>Property Type</option>
+                    <option>Property Type 1</option>
+                    <option>Property Type 2</option>
+                    <option>Property Type 3</option>
+                    <option>Property Type 4</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select>
+                    <option>Location</option>
+                    <option>Location 1</option>
+                    <option>Location 2</option>
+                    <option>Location 3</option>
+                    <option>Location 4</option>
+                </select>
+                
+            </div>
+            <div class="col-md-2">
+                <button class="btn">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Property Types -->
+<div class="container text-center my-5 ">
+    <h2 class="fw-bold text-dark">Property Types</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ipsa eos, distinctio repellat quas vero fuga unde quae. Illo, nostrum!</p>
+    <div class="home-page3">
+<!-- Property Cards -->
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-apartment.png" alt="Apartment">
+                    </div>
+                    <h5>Apartment</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-villa.png" alt="Villa">
+                    </div>
+                    <h5>Villa</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-house.png" alt="Home">
+                    </div>
+                    <h5>Home</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-housing.png" alt="Office">
+                    </div>
+                    <h5>Office</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-building.png" alt="Building">
+                    </div>
+                    <h5>Building</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-neighborhood.png" alt="Townhouse">
+                    </div>
+                    <h5>Townhouse</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-condominium.png" alt="Shop">
+                    </div>
+                    <h5>Shop</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="property-card">
+                <div class="inner-content p-4 rounded">
+                    <div class="icon">
+                        <img src="images/icon-luxury.png" alt="Garage">
+                    </div>
+                    <h5>Garage</h5>
+                    <p>123 Properties</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6 position-relative mb-4">
+            <div class="image-container">
+                <img src="images/about.jpg" alt="Property" class="img-fluid rounded">
+                <div class="overlay-shape"></div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4 mt-4">
+            <h2 class="fw-bold">#1 Place To Find The <br> Perfect Property</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum similique sapiente est voluptas dolore! Commodi voluptatibus voluptas minima deleniti illo!</p>
+            <ul class="list-unstyled">
+                <li> <img width="26" height="26" src="https://img.icons8.com/metro/26/12B886/checked.png" alt="checked"/> Tempor erat elitr rebum at clita</li>
+                <br>
+                <li> <img width="26" height="26" src="https://img.icons8.com/metro/26/12B886/checked.png" alt="checked"/> Aliqu diam amet diam et eos</li>
+                <br>
+                <li> <img width="26" height="26" src="https://img.icons8.com/metro/26/12B886/checked.png" alt="checked"/> Clita duo justo magna dolore erat amet</li>
+            </ul>
+            <button class="btn" style="padding: 16px 48px;background-color: #00A882;color: white;">Read More</button>
+        </div>
+    </div>
+</div>
+
+<section class="property-listing py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center text-sm-start mb-4">Property Listing</h2>
+        <p class="text-center text-sm-center text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas incidunt aut soluta vero animi perspiciatis voluptatibus! Placeat earum labore nemo.</p>
+        
+        <div class="row ">
+            <!-- Property  Card Start -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card property-card1">
+                    <div class="image-container1">
+                        <span class="badge badge-top">For Sell</span>
+                        <img src="images/property-1.jpg" class="card-img-top" alt="House">
+                        <span class="badge badge-bottom" style="background-color: white;color: #00A882;">Apartment</span>
+                    </div>
+                    <div class="card-body bottom-dash">
+                        <h5 class="text-success">$12,345</h5>
+                        <p class="fw-bold">Golden Urban House For Sell</p>
+                        <p class="text-muted">
+                            <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/12B886/marker.png" alt="marker"/>  123 Street, New York, USA
+                        </p>
+                    </div>
+                    <div class="hai">
+                        <div class="d-flex justify-content-between text-muted p-0 bg-white">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-scale" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M208-120q-37 0-62.5-25.5T120-208v-548q0-29 27-40.5t47 8.5l90 90-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 80 80q20 20 8.5 47T756-120H208Zm32-120h332L240-572v332Z"/></svg>
+                                 1000 Sqft</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M40-200v-600h80v400h320v-320h320q66 0 113 47t47 113v360h-80v-120H120v120H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 40h320v-160q0-33-23.5-56.5T760-640H520v240ZM280-520q17 0 28.5-11.5T320-560q0-17-11.5-28.5T280-600q-17 0-28.5 11.5T240-560q0 17 11.5 28.5T280-520Zm0-40Zm240-80v240-240Z"/></svg> 3 Bed</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z"/></svg> 2 Bath</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Card  section End -->
+
+            <!-- Property Card  section Start -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card property-card1">
+                    <div class="image-container1">
+                        <span class="badge badge-top">For Sell</span>
+                        <img src="images/property-2.jpg" class="card-img-top" alt="House">
+                        <span class="badge badge-bottom" style="background-color: white;color: #00A882;">Villa</span>
+                    </div>
+                    <div class="card-body bottom-dash">
+                        <h5 class="text-success">$12,345</h5>
+                        <p class="fw-bold">Golden Urban House For Sell</p>
+                        <p class="text-muted">
+                            <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/12B886/marker.png" alt="marker"/> 
+                            123 Street, New York, USA
+                        </p>
+                    </div>
+                    <div class="hai">
+                        <div class="d-flex justify-content-between text-muted p-0 bg-white">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-scale" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M208-120q-37 0-62.5-25.5T120-208v-548q0-29 27-40.5t47 8.5l90 90-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 80 80q20 20 8.5 47T756-120H208Zm32-120h332L240-572v332Z"/></svg>
+                                 1000 Sqft</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M40-200v-600h80v400h320v-320h320q66 0 113 47t47 113v360h-80v-120H120v120H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 40h320v-160q0-33-23.5-56.5T760-640H520v240ZM280-520q17 0 28.5-11.5T320-560q0-17-11.5-28.5T280-600q-17 0-28.5 11.5T240-560q0 17 11.5 28.5T280-520Zm0-40Zm240-80v240-240Z"/></svg> 3 Bed</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z"/></svg> 2 Bath</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Card End -->
+             <!-- Property Card Start -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card property-card1">
+                    <div class="image-container1">
+                        <span class="badge badge-top">For Sell</span>
+                        <img src="images/property-3.jpg" class="card-img-top" alt="House">
+                        <span class="badge badge-bottom" style="background-color: white;color: #00A882;">Office</span>
+                    </div>
+                    <div class="card-body bottom-dash">
+                        <h5 class="text-success">$12,345</h5>
+                        <p class="fw-bold">Golden Urban House For Sell</p>
+                        <p class="text-muted">
+                            <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/12B886/marker.png" alt="marker"/>  
+                            123 Street, New York, USA
+                        </p>
+                    </div>
+                    <div class="hai">
+                        <div class="d-flex justify-content-between text-muted p-0 bg-white">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-scale" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M208-120q-37 0-62.5-25.5T120-208v-548q0-29 27-40.5t47 8.5l90 90-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 80 80q20 20 8.5 47T756-120H208Zm32-120h332L240-572v332Z"/></svg>
+                                 1000 Sqft</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M40-200v-600h80v400h320v-320h320q66 0 113 47t47 113v360h-80v-120H120v120H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 40h320v-160q0-33-23.5-56.5T760-640H520v240ZM280-520q17 0 28.5-11.5T320-560q0-17-11.5-28.5T280-600q-17 0-28.5 11.5T240-560q0 17 11.5 28.5T280-520Zm0-40Zm240-80v240-240Z"/></svg> 3 Bed</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z"/></svg> 2 Bath</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Card End -->
+             <!-- Property Card Start -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card property-card1">
+                    <div class="image-container1">
+                        <span class="badge badge-top">For Sell</span>
+                        <img src="images/property-4.jpg" class="card-img-top" alt="House">
+                        <span class="badge badge-bottom" style="background-color: white;color: #00A882;">Building</span>
+                    </div>
+                    <div class="card-body bottom-dash">
+                        <h5 class="text-success">$12,345</h5>
+                        <p class="fw-bold">Golden Urban House For Sell</p>
+                        <p class="text-muted">
+                            <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/12B886/marker.png" alt="marker"/>  
+                            123 Street, New York, USA
+                        </p>
+                    </div>
+                    <div class="hai">
+                        <div class="d-flex justify-content-between text-muted p-0 bg-white">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-scale" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M208-120q-37 0-62.5-25.5T120-208v-548q0-29 27-40.5t47 8.5l90 90-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 80 80q20 20 8.5 47T756-120H208Zm32-120h332L240-572v332Z"/></svg>
+                                 1000 Sqft</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M40-200v-600h80v400h320v-320h320q66 0 113 47t47 113v360h-80v-120H120v120H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 40h320v-160q0-33-23.5-56.5T760-640H520v240ZM280-520q17 0 28.5-11.5T320-560q0-17-11.5-28.5T280-600q-17 0-28.5 11.5T240-560q0 17 11.5 28.5T280-520Zm0-40Zm240-80v240-240Z"/></svg> 3 Bed</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z"/></svg> 2 Bath</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Card End -->
+             <!-- Property Card Start -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card property-card1">
+                    <div class="image-container1">
+                        <span class="badge badge-top">For Sell</span>
+                        <img src="images/property-5.jpg" class="card-img-top" alt="House">
+                        <span class="badge badge-bottom" style="background-color: white;color: #00A882;">Home</span>
+                    </div>
+                    <div class="card-body bottom-dash">
+                        <h5 class="text-success">$12,345</h5>
+                        <p class="fw-bold">Golden Urban House For Sell</p>
+                        <p class="text-muted">
+                            <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/12B886/marker.png" alt="marker"/>  
+                            123 Street, New York, USA
+                        </p>
+                    </div>
+                    <div class="hai">
+                        <div class="d-flex justify-content-between text-muted p-0 bg-white">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-scale" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M208-120q-37 0-62.5-25.5T120-208v-548q0-29 27-40.5t47 8.5l90 90-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 80 80q20 20 8.5 47T756-120H208Zm32-120h332L240-572v332Z"/></svg>
+                                 1000 Sqft</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M40-200v-600h80v400h320v-320h320q66 0 113 47t47 113v360h-80v-120H120v120H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 40h320v-160q0-33-23.5-56.5T760-640H520v240ZM280-520q17 0 28.5-11.5T320-560q0-17-11.5-28.5T280-600q-17 0-28.5 11.5T240-560q0 17 11.5 28.5T280-520Zm0-40Zm240-80v240-240Z"/></svg> 3 Bed</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z"/></svg> 2 Bath</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Card End -->
+             <!-- Property Card Start -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card property-card1">
+                    <div class="image-container1">
+                        <span class="badge badge-top">For Sell</span>
+                        <img src="images/property-6.jpg" class="card-img-top" alt="House">
+                        <span class="badge badge-bottom">Shop</span>
+                    </div>
+                    <div class="card-body bottom-dash">
+                        <h5 class="text-success">$12,345</h5>
+                        <p class="fw-bold">Golden Urban House For Sell</p>
+                        <p class="text-muted">
+                            <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/12B886/marker.png" alt="marker"/>  
+                            123 Street, New York, USA
+                        </p>
+                    </div>
+                    <div class="hai">
+                        <div class="d-flex justify-content-between text-muted p-0 bg-white">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-scale" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M208-120q-37 0-62.5-25.5T120-208v-548q0-29 27-40.5t47 8.5l90 90-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 104 104-54 54 28 28 54-54 80 80q20 20 8.5 47T756-120H208Zm32-120h332L240-572v332Z"/></svg>
+                                 1000 Sqft</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M40-200v-600h80v400h320v-320h320q66 0 113 47t47 113v360h-80v-120H120v120H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 40h320v-160q0-33-23.5-56.5T760-640H520v240ZM280-520q17 0 28.5-11.5T320-560q0-17-11.5-28.5T280-600q-17 0-28.5 11.5T240-560q0 17 11.5 28.5T280-520Zm0-40Zm240-80v240-240Z"/></svg> 3 Bed</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" class="icon-bed" viewBox="0 -960 960 960" width="24px" fill="#00b98e"><path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z"/></svg> 2 Bath</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Card End -->
+
+        </div>
+        <div class="col-12 text-center">
+            <a class="btn btn-success py-3 px-5" href="#">Browse More Property</a>
+        </div>
+      </div>
+      </section>
+
+    <section class="contact-agent py-5">
+    <div class="container">
+        <div class="row align-items-center bordered-box">
+            <div class="col-lg-6">
+                <img src="images/call-to-action.jpg" class="img-fluid rounded" alt="Agent">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="fw-bold">Contact With Our Certified Agent</h2>
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora adipisci quaerat. A esse officia minus maxime provident deserunt odio.
+                </p>
+                <div class="d-flex gap-3">
+                    <button class="btn btn-success">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill pe-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                          </svg>
+                           Make A Call
+                    </button>
+                    <button class="btn btn-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3 pe-1" viewBox="0 0 16 16">
+                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                          </svg>
+                           Get Appointment
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="property-agents py-5 text-center">
+    <div class="container">
+        <h2 class="fw-bold">Property Agents</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem sint nihil accusamus esse alias obcaecati debitis quod nisi ad.
+        <p class="text-muted">
+        </p>
+        <div class="row">
+            <!-- Agent  1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="agent-card">
+                    <img src="images/team-1.jpg" alt="Agent 1" class="img-thumbnai">
+                    <div class="agent-info">
+                        <div class="social-icons">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </div>
+                        <h5 class="fw-bold">Full Name</h5>
+                        <p class="text-muted">Designation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agent  2 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="agent-card">
+                    <img src="images/team-2.jpg" alt="Agent 2">
+                    <div class="agent-info">
+                        <div class="social-icons">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </div>
+                        <h5 class="fw-bold">Full Name</h5>
+                        <p class="text-muted">Designation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agent  3 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="agent-card">
+                    <img src="images/team-3.jpg" alt="Agent 3">
+                    <div class="agent-info">
+                        <div class="social-icons">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </div>
+                        <h5 class="fw-bold">Full Name</h5>
+                        <p class="text-muted">Designation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agent Card 4 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="agent-card">
+                    <img src="images/team-4.jpg" alt="Agent 4">
+                    <div class="agent-info bg-white">
+                        <div class="social-icons">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                              </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </div>
+                        <h5 class="fw-bold">Full Name</h5>
+                        <p class="text-muted">Designation</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container p-2 p-md-5 ">
+        <h2 class="fw-bold text-center text-sm-center">Our Clients Say!</h2>
+        <p class="text-muted text-center">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae harum nulla excepturi praesentium blanditiis rem obcaecati voluptatum consectetur amet animi.
+        </p>
+        <div class="row p-2 p-md-5 rounded justify-content-center bg-style">
+            <!-- Testimonial  1 -->
+            <div class="col-lg-8 col-md-10 mb-4">
+                <div class="card border-0 shadow-sm p-4">
+                    <p class="text-muted">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque molestiae error, unde cupiditate eos nesciunt maiores architecto rerum sunt..
+                    </p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="images/testimonial-1.jpg" alt="Client 1" class="rounded border border-primary me-3" width="50" height="50">
+                        <div>
+                            <h6 class="fw-bold mb-0">Client Name</h6>
+                            <p class="text-muted small mb-0">Profession</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial  2 -->
+            <div class="col-lg-8 col-md-10 mb-4">
+                <div class="card border-0 shadow-sm p-4">
+                    <p class="text-muted">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates libero vitae dolorum optio repellat blanditiis alias id esse doloribus.
+                    </p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="images/testimonial-2.jpg" alt="Client 1" class="rounded border border-primary me-3" width="50" height="50">
+                        <div>
+                            <h6 class="fw-bold mb-0">Client Name</h6>
+                            <p class="text-muted small mb-0">Profession</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial  3 -->
+            <div class="col-lg-8 col-md-10 mb-4">
+                <div class="card border-0 shadow-sm p-4">
+                    <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, distinctio? Earum fugit cupiditate, laborum vel quae sapiente consequuntur recusandae quos.
+                    </p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="images/testimonial-3.jpg" alt="Client 1" class="rounded border border-primary me-3" width="50" height="50">
+                        <div>
+                            <h6 class="fw-bold mb-0">Client Name</h6>
+                            <p class="text-muted small mb-0">Profession</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    
+
+    <!-- Footer Page -->
+<footer class="text-light pt-5 pb-3">
+    <div class="container">
+        <div class="row">
+            <!-- Get In Touch -->
+            <div class="col-md-4 mb-4">
+                <h5 class="fw-bold">Get In Touch</h5>
+                <p><i class="fas fa-map-marker-alt me-2"></i> 123 Street, New York, USA</p>
+                <p><i class="fas fa-phone-alt me-2"></i> +012 345 67890</p>
+                <p><i class="fas fa-envelope me-2"></i> info@example.com</p>
+                <div class="d-flex">
+                    <a href="#" class="social-icon me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon me-2"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon me-2"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">Our Services</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold">Photo Gallery</h5>
+                <div class="d-flex flex-wrap">
+                    <img src="images/property-1.jpg" alt="Gallery" class="footer-img">
+                    <img src="images/property-2.jpg" alt="Gallery" class="footer-img">
+                    <img src="images/property-3.jpg" alt="Gallery" class="footer-img">
+                    <img src="images/property-4.jpg" alt="Gallery" class="footer-img">
+                    <img src="images/property-5.jpg" alt="Gallery" class="footer-img">
+                    <img src="images/property-6.jpg" alt="Gallery" class="footer-img">
+                </div>
+            </div>
+
+            <!-- Newsletter page -->
+            <div class="col-md-2 mb-4">
+                <h5 class="fw-bold">Newsletter</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Your email">
+                    <button class="btn btn-success">SignUp</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom page -->
+        <div class="mt-4 footer-copy">
+            <p class="mb-0">&copy; Your Site Name, All Rights Reserved. Designed by <a href="#" class="text-light fw-bold">HTML Codex</a></p>
+            <div class="links-footer">
+                <a href="#">Home</a>
+                <a href="#">Cookies</a>
+                <a href="#">Help</a>
+                <a href="#">FQAs</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<button id="goTopBtn">
+    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/12B886/send-letter--v1.png" alt="send-letter--v1"/>
+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
